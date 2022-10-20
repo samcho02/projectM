@@ -8,6 +8,10 @@
 */
 
 int main(){
-    title_page();
+    title_page();           // title page
+
+    main_page();            // main menu    
+
+
     return 0;
 }

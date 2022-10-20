@@ -19,12 +19,38 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 #include "prog.h"
 
 
-// Prints title page
+// Prints title page; delays for a second; 
+// 
 void title_page(){
-    printf("Man On!\n");
-    printf("Press any button to start");
+    printf("_________________________________________________________\n\n\n");
+
+    Sleep(800);
+
+    printf("\n\n                        Man On!\n\n");
+    
+    Sleep(1000);
+    
+    printf("\n");
+
+
+    printf("                        CsqrV \n\n\n\n");
+
+    Sleep(1000);
+
+    printf("_________________________________________________________\n\n");
+
+    Sleep(800);
 }
 
+
+// Prints main menu of the game
+
+void main_page(){
+    printf("<MAIN PAGE>\n");
+    printf("You can press the following buttons to navigate around:\n");
+    printf("T - Team\nS - Schedule\nM - Market\nQ - Quit\n\n");
+}

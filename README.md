@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+> Project M is a text-based soccer management game, where the player is a manager of a soccer team.
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="500" height="300"/>
 </div>

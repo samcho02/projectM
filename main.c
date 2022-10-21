@@ -9,17 +9,24 @@
 
 int main(){
     char action;
+    int check = 1;            // while check is true, the game runs
     //int asset = 0;          // player starting money
 
-    title_page();           // title page
+    title_page();             // title page
 
-    main_page();            // main menu    
-    printf("What would you like to do? ");
-    scanf("%c", &action);
+    main_page();              // main menu    
+    
+    while (check){
+        printf("What would you like to do? ");
+        scanf("%c", &action);
 
-    // Quits
-    if (action == 'q' || action == 'Q') return 0;      
+        if (action == 'q' || action == 'Q') check = 0;
 
+
+    }
 
     return 0;
 }
+
+// navigate function 
+// checks what screen user is on, asks for user's action
